@@ -1,0 +1,74 @@
+p {
+  position:static;
+  text-align: center;
+  font-family: 'Permanent Marker',fantasy;
+  font-size: 20px;
+
+}
+
+img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.titles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#body {
+  background-color: grey;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker',fantasy;
+  font-size: 100px;
+  color:#ff0000;
+}
+
+#title1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker',fantasy;
+  font-size: 100px
+}
+
+#title2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker',fantasy;
+  font-size: 100px;
+  color: blue;
+}
+
+#versus {
+  font-family: 'Permanent Marker',fantasy;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+#picture1 {
+  margin-left: 100px;
+}
+
+#picture2{
+  margin-right: 100px;
+}
+
+#centeredBtn {
+  display: flex;
+  justify-content: center;
+}
